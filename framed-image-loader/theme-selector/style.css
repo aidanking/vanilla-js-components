@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  padding: 0.25em;
+}
+
+.container {
+  padding: 0 2em;
+  margin: 0 auto;
+  max-width: 1220px;
+}

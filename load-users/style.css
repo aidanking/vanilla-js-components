@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+.container {
+  padding: 1em 2em;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.users > * + * {
+  margin-top: 2em;
+}
+
+.user {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user__figure {
+  padding-right: 2em;
+  margin: 0;
+}
+
+.user__img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user__content {
+  flex: 1;
+}
+
+.user__username {
+  margin: 0;
+}

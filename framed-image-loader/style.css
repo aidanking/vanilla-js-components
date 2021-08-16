@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 2em;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+figure {
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  object-fit: cover;
+}
+
+.form__row {
+  margin-bottom: 0.5em;
+}

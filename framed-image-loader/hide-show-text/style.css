@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5em;
+}
+
+.card {
+  background-color: lightblue;
+  padding: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.card__btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0.9em;
+  background: none;
+  color: #2c2c2c;
+  border: 1px solid #4a4a4a;
+  transition: all 200ms;
+}
+
+.card__btn:hover {
+  border: 1px solid #ababab;
+  color: #2c2c2c;
+  font-size: 1.1rem;
+}
+
+.hide {
+  opacity: 0;
+}

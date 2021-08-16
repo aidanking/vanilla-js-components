@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Framed Image Loader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <figure>
+          <img
+            class="image"
+            width="400"
+            height="250"
+            src="https://via.placeholder.com/400x250"
+            alt="an image"
+          />
+        </figure>
+        <form class="form">
+          <div class="form__row">
+            <label for="url">URL: </label>
+            <input
+              id="url"
+              name="url"
+              type="url"
+              placeholder="Enter URL Here"
+            />
+          </div>
+          <div class="form__row">
+            <label for="color">Frame Color: </label>
+            <input id="color" name="color" type="color" />
+          </div>
+          <div class="form__row">
+            <label for="width">Frame Border: </label>
+            <input
+              id="width"
+              name="width"
+              type="number"
+              placeholder="Enter frame width (px)"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
